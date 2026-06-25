@@ -1,15 +1,15 @@
-# D07 - Container Orchestration Basics
+## D07 - Container Orchestration Basics
 
 
 Using Docker Compose and Docker Swarm for joint container launch and basic orchestration.
 
-## About the Project
+### About the Project
 
 This project is dedicated to studying container orchestration. In the first stage, a microservice application was packaged into Docker containers and launched using Docker Compose. In the second stage, a Docker Swarm cluster of three nodes was deployed using Vagrant, where a service stack was launched with nginx proxying and visualization through Portainer.
 
 All work was performed on virtual machines running **Ubuntu 22.04.5 LTS**.
 
-## Key Skills
+### Key Skills
 
 The following technologies and tools were learned and applied during the project:
 
@@ -23,7 +23,7 @@ The following technologies and tools were learned and applied during the project
 - **Docker Hub:** Pushing images to a public registry
 - **Postman:** Testing the microservice application API
 
-## Completed Tasks
+### Completed Tasks
 
 The project consists of three parts, each building on the previous one:
 
