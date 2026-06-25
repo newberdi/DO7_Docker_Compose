@@ -1,0 +1,19 @@
+Vagrant.configure("2") do |config|
+
+  # Базовый образ виртуальной машины
+  config.vm.box = "ubuntu/jammy64"
+
+  # Имя виртуальной машины
+  config.vm.hostname = "newberdi-vm"
+
+  # Проброс проекта в виртуальную машину
+  config.vm.synced_folder ".", "/home/vagrant/app" # назначаем корень проекта
+
+  # Настройки VirtualBox
+  config.vm.provider "virtualbox" do |vb|
+    vb.name = "newberdi-vm"
+    vb.memory = 4096
+    vb.cpus = 2
+  end
+
+end
